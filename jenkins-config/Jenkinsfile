@@ -6,8 +6,8 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                sh 'npm --version'
-                sh 'echo hey buddy'
+                zsh 'npm --version'
+                zsh 'echo hey buddy'
             }
         }
     }
